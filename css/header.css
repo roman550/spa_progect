@@ -1,7 +1,10 @@
 .header__contacts {
+    font-family: "source sans pro", sans-serif;
+    font-style: italic;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    font-weight: bold;
 }
 .header__contacts__email {
     display: flex;
@@ -10,22 +13,40 @@
     display: flex;
 }
 .header {
+    display: flex;
+    justify-content: space-between;
+    
 }
 .header__logo {
+    display: flex;
 }
 .header__nav {
+    display: flex;
+    flex-direction: row;
 }
 .header__nav__about-us {
+    display: flex;
+    margin: 20px 12px;
 }
 .header__nav__services {
+    display: flex;
+    margin: 20px 12px;
 }
 .header__nav__spec-off {
+    display: flex;
+    margin: 20px 12px;
 }
 .header__nav__blog {
+    display: flex;
+    margin: 20px 12px;
 }
 .header__nav__contact-us {
+    display: flex;
+    margin: 20px 12px;
 }
 .header__socmedia {
+    display: flex;
+    flex-direction: row;
 }
 .header__socmedia__fb {
 }
