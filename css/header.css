@@ -19,6 +19,7 @@
 }
 .header__logo {
     display: flex;
+    margin: 16px 0;
 }
 .header__nav {
     display: flex;
@@ -45,14 +46,38 @@
     margin: 20px 12px;
 }
 .header__socmedia {
-    display: flex;
+    display: inline-flex;
     flex-direction: row;
 }
 .header__socmedia__fb {
+    width: 25px;
+    margin: 16px 0;
+    fill: currentColor;
+    box-sizing: border-box;
+    display: block;
+    color: rgb(254, 128, 96);
 }
 .header__socmedia__inst {
+    width: 25px;
+    margin: 16px 0;
+    fill: currentColor;
+    box-sizing: border-box;
+    display: block;
+    color: rgb(254, 128, 96);
 }
 .header__socmedia__youtube {
+    width: 25px;
+    margin: 16px 0;
+    fill: currentColor;
+    box-sizing: border-box;
+    display: block;
+    color: rgb(254, 128, 96);
 }
 .header__socmedia__twit {
+    width: 25px;
+    margin: 16px 0;
+    fill: currentColor;
+    box-sizing: border-box;
+    display: block;
+    color: rgb(254, 128, 96);
 }
