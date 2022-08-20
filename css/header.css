@@ -8,9 +8,14 @@
 }
 .header__contacts__email {
     display: flex;
+    color: rgb(66, 77, 76);
+    font-size: 14px;
 }
 .header__contacts__adress {
     display: flex;
+    color: rgb(66, 77, 76);
+    font-size: 14px;
+    line-height: 3px;
 }
 .header {
     display: flex;
@@ -24,11 +29,46 @@
 .header__nav {
     display: flex;
     flex-direction: row;
+    font-family: "source sans pro", sans-serif;
+    font-weight: bold;
 }
 .header__nav__about-us {
     display: flex;
     margin: 20px 12px;
 }
+a.header__nav__about-us__link{
+    color: rgb(66, 77, 76);
+    font-size: 15px;
+    position: relative;
+    transition: color 0.8s, text-shadow 0.8s;
+    text-decoration: none;
+}
+a.header__nav__about-us__link::after{
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: 15%;
+    background: #000000;
+    height: 10%;
+    width: 0%;
+    z-index: -1;
+    transition: width 0.4s, opacity 0.4s, box-shadow 0.4s;
+    border-radius: 100px;
+    opacity: 0;
+    box-shadow: 0 0 16px rgba(42,157,143,0);
+}
+a.header__nav__about-us__link:hover{
+    color: #f4a261;
+    text-shadow: 0 0 16px rgba(244,162,97,0.64);
+}
+a.header__nav__about-us__link:hover::after{
+    width: 100%;
+    opacity: 1;
+    box-shadow: 0 0 16px rgba(0, 0, 0, 0);
+}
+
+
+
 .header__nav__services {
     display: flex;
     margin: 20px 12px;
