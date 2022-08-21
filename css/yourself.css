@@ -1,0 +1,18 @@
+.main__yourself {
+    background: url("/img/yourself_bkgr.svg") no-repeat;
+    display: block;
+    box-sizing: border-box;
+    position: relative;
+    padding-top: 250px;
+    padding-bottom: 250px;
+    vertical-align: baseline;
+    background-size: cover;
+    align-items: 0 auto;
+    
+}
+.main__yourself__subtitle {
+}
+.main__yourself__title {
+}
+.main__yourself__text {
+}

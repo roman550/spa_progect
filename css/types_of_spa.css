@@ -1,0 +1,54 @@
+.main__types {
+    display: flex;
+    justify-content: space-between;
+    
+}
+.main__types__treatments {
+    width: 350px;
+    height: 270px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background: url(/img/treatments.svg);
+    background-size: cover;
+    justify-content: end;
+}
+.main__types__treatments__title {
+    font-family: "Cormorant Garamond", serif;
+}
+.main__types__treatments__text {
+}
+.main__types__treatments__link {
+}
+.main__types__thermal {
+    width: 350px;
+    height: 270px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background: url(/img/thermal_bath_.svg);
+    background-size: cover;
+    justify-content: end;
+}
+.main__types__thermal__title {
+}
+.main__types__thermal__text {
+}
+.main__types__thermal__link {
+}
+.main__types__massages {
+    width: 350px;
+    height: 270px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background: url(/img/oil_massage.svg);
+    background-size: cover;
+    justify-content: end;
+}
+.main__types__massages__title {
+}
+.main__types__massages__text {
+}
+.main__types__massages__link {
+}

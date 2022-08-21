@@ -2,5 +2,8 @@ body{
     background-color: #f6f1db;
     padding: 0 20px;
     margin: 0 auto;
-    max-width: 1200px;
+    max-width: 1300px;
+}
+.main__yourself {
+    max-width: 2000px;
 }
